@@ -236,3 +236,20 @@
     });
   }
 })();
+
+/* When the site is opened straight from disk (file://), folder links such as
+   "../about/" would show a directory listing. Point them at index.html. */
+(function () {
+  if (window.location.protocol !== 'file:') return;
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var h = a.getAttribute('href');
+    if (/^(https?:|mailto:|tel:|#)/.test(h)) return;
+    var m = h.match(/^([^?#]*)(.*)$/);
+    if (m[1] === '' || m[1].slice(-1) === '/' || m[1] === '.' || m[1] === '..') {
+      var p = m[1] === '' ? './' : m[1].replace(/\/?$/, '/');
+      a.setAttribute('href', p + 'index.html' + m[2]);
+    }
+  });
+  var form = document.querySelector('[data-contact-form]');
+  if (form) form.setAttribute('data-success', form.getAttribute('data-success').replace(/\/?$/, '/index.html'));
+})();

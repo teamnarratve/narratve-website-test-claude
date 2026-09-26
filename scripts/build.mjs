@@ -62,7 +62,7 @@ const fontSrc = path.join(ROOT, 'node_modules/@fontsource-variable/inter/files/i
 const fontBuf = fs.readFileSync(fontSrc);
 const fontName = `/assets/fonts/inter-latin-${hash(fontBuf, 8)}.woff2`;
 write(path.join(DIST, fontName), fontBuf);
-const fontFace = `@font-face{font-family:"Inter";font-style:normal;font-display:swap;font-weight:100 900;src:url(${fontName}) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}`;
+const fontFace = `@font-face{font-family:"Inter";font-style:normal;font-display:swap;font-weight:100 900;src:url(..${fontName.replace('/assets', '')}) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}`;
 
 /* ---- CSS ----------------------------------------------------------------- */
 const cssSrc = ['tokens.css', 'main.css', 'pages.css']
@@ -162,13 +162,28 @@ for (const post of insights) {
 }
 
 /* ---- Write pages --------------------------------------------------------- */
+/**
+ * Rewrite root-relative URLs ("/assets/…", "/about/") to paths relative to
+ * the page, so the package works from any folder and when opened from disk.
+ * 404.html keeps root-relative URLs because servers show it at any depth.
+ */
+function relativize(html, pagePath) {
+  if (pagePath.endsWith('.html')) return html;
+  const depth = pagePath.split('/').filter(Boolean).length;
+  const up = depth ? '../'.repeat(depth) : './';
+  const fix = (u) => (u.startsWith('/') && !u.startsWith('//') ? up + u.slice(1) : u);
+  return html
+    .replace(/\s(href|src|action|data-success)="([^"]*)"/g, (m, attr, u) => ` ${attr}="${fix(u)}"`)
+    .replace(/\ssrcset="([^"]*)"/g, (m, set) => ` srcset="${set.split(', ').map((part) => fix(part)).join(', ')}"`);
+}
+
 const minify = (html) => html.replace(/<!--(?!\[if)[\s\S]*?-->/g, '').replace(/\n\s+/g, '\n').replace(/\n{2,}/g, '\n');
 
 for (const page of pages) {
   const og = page.ogImage && hasImage(page.ogImage) ? imageUrl(page.ogImage, 1200) : null;
   if (og && typeof og === 'object') page.og = og;
   const ctx = { ...ctx0, page, assets, jsonld: jsonld(ctx0, page) };
-  const html = minify(layout(ctx, page.body));
+  const html = relativize(minify(layout(ctx, page.body)), page.path);
   const out = page.path.endsWith('.html') ? path.join(DIST, page.path) : path.join(DIST, page.path, 'index.html');
   write(out, html);
 }
