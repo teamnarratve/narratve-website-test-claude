@@ -13,7 +13,8 @@
   --color-text: #000000;
   --color-ink: #1D1D1F;             /* body copy */
   --color-muted: #6B6B6B;
-  --color-muted-2: #86868B;
+  --color-muted-2: #6E6E73;          /* secondary — AA on surface */
+  --color-muted-3: #86868B;          /* decorative only (large text, dots) */
   --color-rule: rgba(0, 0, 0, 0.12);
   --color-rule-strong: rgba(0, 0, 0, 0.88);
   --color-dark: #000000;

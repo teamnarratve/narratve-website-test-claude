@@ -780,7 +780,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* ---- 06. Why ------------------------------------------------------------ */
 .why__title { margin-bottom: clamp(60px, 8vw, 144px); }
-.why__soft { color: var(--color-muted-2); }
+.why__soft { color: var(--color-muted-3); }
 .why__grid { row-gap: var(--space-8); }
 .why__lede {
   grid-column: 1 / span 5;

@@ -1,0 +1,83 @@
+{
+  "_readme": "Single source of truth for business details. Empty strings are hidden on the site and reported by `npm run build`. Fields marked REQUIRED must be filled before launch (`npm run build:strict` fails if they are empty).",
+
+  "name": "Narratve Space",
+  "legalName": "Narratve Space",
+  "url": "https://narratv.space",
+  "locale": "en_IN",
+  "language": "en",
+  "tagline": "Advertising & Creative",
+  "description": "Narratve Space is an advertising and creative agency based in Kerala. Strategy, creativity, media and technology for ambitious brands across India and the GCC.",
+  "foundingYear": "",
+
+  "contact": {
+    "email": "",
+    "_email": "REQUIRED — e.g. the studio inbox shown on narratv.space",
+    "careersEmail": "",
+    "phone": "",
+    "_phone": "REQUIRED — international format, e.g. +91 90000 00000",
+    "whatsapp": "",
+    "_whatsapp": "Digits only incl. country code, e.g. 919000000000",
+    "hours": "Monday – Saturday, 9:30 am – 6:30 pm IST"
+  },
+
+  "address": {
+    "streetAddress": "",
+    "locality": "",
+    "_locality": "REQUIRED — city, e.g. Kozhikode",
+    "region": "Kerala",
+    "postalCode": "",
+    "country": "IN",
+    "countryName": "India",
+    "mapUrl": "",
+    "geo": { "lat": "", "lng": "" }
+  },
+
+  "social": {
+    "instagram": "",
+    "linkedin": "",
+    "facebook": "",
+    "behance": "",
+    "youtube": "",
+    "x": ""
+  },
+
+  "markets": [
+    { "name": "Kerala", "timezone": "Asia/Kolkata", "abbr": "IST", "home": true },
+    { "name": "Dubai", "timezone": "Asia/Dubai", "abbr": "GST" },
+    { "name": "Riyadh", "timezone": "Asia/Riyadh", "abbr": "AST" },
+    { "name": "Doha", "timezone": "Asia/Qatar", "abbr": "AST" }
+  ],
+
+  "areaServed": ["Kerala", "India", "United Arab Emirates", "Saudi Arabia", "Qatar"],
+
+  "forms": {
+    "_readme": "Contact form delivery. Set `endpoint` to a Formspree / Getform / Basin URL, or leave empty and deploy on Netlify (Netlify Forms is detected automatically via data-netlify).",
+    "endpoint": "",
+    "successPath": "/thank-you/"
+  },
+
+  "analytics": {
+    "_readme": "Optional. Only injected when set.",
+    "ga4": "",
+    "plausibleDomain": ""
+  },
+
+  "nav": [
+    { "label": "Work", "href": "/work/" },
+    { "label": "Services", "href": "/services/" },
+    { "label": "About", "href": "/about/" },
+    { "label": "Insights", "href": "/insights/" },
+    { "label": "Careers", "href": "/careers/" }
+  ],
+
+  "footerNav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Work", "href": "/work/" },
+    { "label": "Services", "href": "/services/" },
+    { "label": "About", "href": "/about/" },
+    { "label": "Insights", "href": "/insights/" },
+    { "label": "Contact", "href": "/contact/" },
+    { "label": "Careers", "href": "/careers/" }
+  ]
+}

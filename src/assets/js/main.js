@@ -1,4 +1,4 @@
-/* Narratve Space — Home interactions */
+/* Narratve Space — site interactions */
 (function () {
   'use strict';
 
@@ -169,4 +169,70 @@
     });
   }
   if (clocks.length) { tick(); setInterval(tick, 15000); }
+
+  /* ---- Work filters ----------------------------------------------------- */
+  var filterBar = document.querySelector('[data-filters]');
+  if (filterBar) {
+    var cards = document.querySelectorAll('[data-work-grid] [data-cats]');
+    var emptyMsg = document.querySelector('[data-work-empty]');
+    filterBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-filter]');
+      if (!btn) return;
+      var f = btn.dataset.filter;
+      filterBar.querySelectorAll('[data-filter]').forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b === btn));
+      });
+      var shown = 0;
+      cards.forEach(function (c) {
+        var on = f === '*' || c.dataset.cats.split('|').indexOf(f) !== -1;
+        c.hidden = !on;
+        if (on) { shown++; c.classList.add('is-in'); }
+      });
+      if (emptyMsg) emptyMsg.hidden = shown > 0;
+    });
+  }
+
+  /* ---- Contact form ----------------------------------------------------- */
+  var form = document.querySelector('[data-contact-form]');
+  if (form) {
+    var params = new URLSearchParams(window.location.search);
+    var svc = params.get('service');
+    var select = form.querySelector('select[name="service"]');
+    if (svc && select) {
+      Array.prototype.forEach.call(select.options, function (o) { if (o.value === svc) o.selected = true; });
+    }
+    var status = form.querySelector('[data-form-status]');
+    var endpoint = form.getAttribute('data-endpoint');
+    var success = form.getAttribute('data-success') || '/thank-you/';
+
+    form.addEventListener('submit', function (e) {
+      if (!form.checkValidity()) return; // let the browser show messages
+      e.preventDefault();
+      var submit = form.querySelector('[type="submit"]');
+      var data = new FormData(form);
+      if (data.get('company_website')) return; // honeypot
+      submit.disabled = true;
+      submit.setAttribute('aria-busy', 'true');
+      status.textContent = 'Sending…';
+
+      var req = endpoint
+        ? fetch(endpoint, { method: 'POST', body: data, headers: { Accept: 'application/json' } })
+        : fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(data).toString()
+          });
+
+      req.then(function (res) {
+        if (!res.ok) throw new Error(res.status);
+        window.location.href = success;
+      }).catch(function () {
+        submit.disabled = false;
+        submit.removeAttribute('aria-busy');
+        var mail = form.getAttribute('data-fallback-email');
+        status.innerHTML = 'Sorry — your message could not be sent. ' +
+          (mail ? 'Please email us at <a href="mailto:' + mail + '">' + mail + '</a>.' : 'Please try again shortly.');
+      });
+    });
+  }
 })();

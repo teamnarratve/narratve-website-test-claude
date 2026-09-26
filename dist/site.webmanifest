@@ -1,0 +1,27 @@
+{
+  "name": "Narratve Space",
+  "short_name": "Narratve Space",
+  "description": "Narratve Space is an advertising and creative agency based in Kerala. Strategy, creativity, media and technology for ambitious brands across India and the GCC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F7",
+  "theme_color": "#F5F5F7",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

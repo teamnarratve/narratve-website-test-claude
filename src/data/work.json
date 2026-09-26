@@ -1,0 +1,63 @@
+[
+  {
+    "draft": true,
+    "featured": true,
+    "slug": "sample-launch-campaign",
+    "client": "Client Name",
+    "title": "A launch campaign that sold a feeling before it sold a room.",
+    "summary": "A launch campaign that sold a feeling before it sold a room.",
+    "categories": ["Campaign", "Film"],
+    "year": "2026",
+    "market": "Kerala",
+    "cover": "work/sample-launch-campaign/cover.jpg",
+    "coverAlt": "Campaign key visual",
+    "art": "launch",
+    "services": ["creative-campaigns", "video-production"],
+    "challenge": "",
+    "idea": "",
+    "result": "",
+    "gallery": []
+  },
+  {
+    "draft": true,
+    "featured": true,
+    "slug": "sample-brand-identity",
+    "client": "Client Name",
+    "title": "A new identity for a family business ready for its next generation.",
+    "summary": "A new identity for a family business ready for its next generation.",
+    "categories": ["Brand Identity"],
+    "year": "2026",
+    "cover": "work/sample-brand-identity/cover.jpg",
+    "art": "identity",
+    "services": ["brand-strategy-identity"],
+    "gallery": []
+  },
+  {
+    "draft": true,
+    "featured": true,
+    "slug": "sample-ecommerce",
+    "client": "Client Name",
+    "title": "A store rebuilt around how customers actually shop.",
+    "summary": "A store rebuilt around how customers actually shop.",
+    "categories": ["Ecommerce", "Performance"],
+    "year": "2026",
+    "cover": "work/sample-ecommerce/cover.jpg",
+    "art": "commerce",
+    "services": ["ecommerce-design", "performance-marketing"],
+    "gallery": []
+  },
+  {
+    "draft": true,
+    "featured": true,
+    "slug": "sample-social-content",
+    "client": "Client Name",
+    "title": "An always-on content system that gave a category leader a voice.",
+    "summary": "An always-on content system that gave a category leader a voice.",
+    "categories": ["Social", "Content"],
+    "year": "2026",
+    "cover": "work/sample-social-content/cover.jpg",
+    "art": "social",
+    "services": ["social-media", "video-production"],
+    "gallery": []
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "brand-strategy-identity",
+    "title": "Brand Strategy & Identity",
+    "short": "Build a brand people can recognise, remember and trust.",
+    "metaTitle": "Brand Strategy & Identity Design Agency in Kerala",
+    "metaDescription": "Brand strategy, positioning, naming and visual identity for businesses in Kerala, India and the GCC. Build a brand people recognise, remember and trust.",
+    "headline": "A brand is a promise people can recognise.",
+    "intro": "Most brands don’t have a visibility problem. They have a clarity problem. We define what you stand for, who you are for and why that matters — then build an identity that says it consistently, everywhere.",
+    "image": "services/brand-strategy-identity.jpg",
+    "imageAlt": "Brand identity system laid out on a studio table",
+    "deliverables": [
+      "Brand audit & category review",
+      "Audience & competitor insight",
+      "Positioning & brand platform",
+      "Naming & tagline development",
+      "Brand architecture",
+      "Logo & visual identity system",
+      "Tone of voice & messaging",
+      "Brand guidelines",
+      "Packaging & environmental design",
+      "Brand launch & internal rollout"
+    ],
+    "approach": [
+      { "title": "Discover", "text": "Stakeholder conversations, customer insight and a hard look at the category." },
+      { "title": "Define", "text": "A positioning that is true, distinctive and useful to the business." },
+      { "title": "Design", "text": "An identity system built to flex across every touchpoint." },
+      { "title": "Deploy", "text": "Guidelines, templates and launch support so the brand holds together." }
+    ],
+    "faqs": [
+      { "q": "How long does a brand identity project take?", "a": "A focused identity typically takes 6–10 weeks. A full strategy, naming and identity programme usually runs 10–16 weeks, depending on research and stakeholder reviews." },
+      { "q": "Do you work on rebrands as well as new brands?", "a": "Yes. Rebrands start with an audit of what equity is worth keeping, so the new brand moves forward without throwing away recognition you have already earned." },
+      { "q": "What do we receive at the end?", "a": "A brand platform, the full identity system in production-ready formats, and guidelines your team and partners can actually use." }
+    ],
+    "related": ["creative-campaigns", "website-design", "social-media"]
+  },
+  {
+    "slug": "creative-campaigns",
+    "title": "Creative Strategy & Campaigns",
+    "short": "Ideas built around a business objective, not just a brief.",
+    "metaTitle": "Creative Advertising Campaigns Agency in Kerala & GCC",
+    "metaDescription": "Integrated advertising campaigns across TV, OOH, print, digital and social — built around a business objective. Creative agency in Kerala, India and the GCC.",
+    "headline": "The brief says what. The idea says why anyone should care.",
+    "intro": "We start with the business objective, find the insight that makes it interesting, then build one idea strong enough to travel — from a hoarding on the highway to a six-second pre-roll.",
+    "image": "services/creative-campaigns.jpg",
+    "imageAlt": "Large-format outdoor advertising campaign in a city street",
+    "deliverables": [
+      "Communication strategy",
+      "Creative platform & big idea",
+      "Integrated campaign development",
+      "Copywriting & art direction",
+      "Television & cinema",
+      "Outdoor, transit & print",
+      "Radio & audio",
+      "Digital & social adaptations",
+      "Launch & activation campaigns",
+      "Retail & point-of-sale"
+    ],
+    "approach": [
+      { "title": "Objective", "text": "Agree what the campaign must change — awareness, consideration, sales or behaviour." },
+      { "title": "Insight", "text": "Find the truth about the audience or category that opens the door." },
+      { "title": "Idea", "text": "One creative platform that can live across every channel." },
+      { "title": "Craft", "text": "Execution, adaptation and production — held to the same standard." }
+    ],
+    "faqs": [
+      { "q": "Do you handle media planning and buying?", "a": "We plan channels alongside the creative so the idea is built for where it will run, and work with media partners for buying across Kerala, India and the GCC." },
+      { "q": "Can you adapt campaigns for Arabic-speaking markets?", "a": "Yes. We develop campaigns with GCC audiences in mind and adapt copy and cultural cues with native-language partners rather than translating line by line." },
+      { "q": "Do you work on single executions or only full campaigns?", "a": "Both. Many clients start with a single launch or seasonal push and build from there." }
+    ],
+    "related": ["brand-strategy-identity", "video-production", "performance-marketing"]
+  },
+  {
+    "slug": "website-design",
+    "title": "Digital & Website Experience",
+    "short": "Digital experiences designed to communicate clearly and convert effectively.",
+    "metaTitle": "Website Design & Development Company in Kerala",
+    "metaDescription": "Strategic website design and development in Kerala. Fast, accessible, SEO-ready websites and digital experiences built to communicate clearly and convert.",
+    "headline": "Your website is your hardest-working salesperson. Treat it like one.",
+    "intro": "We design and build websites that explain what you do in seconds, earn trust quickly and make the next step obvious — fast, accessible and easy for your team to manage.",
+    "image": "services/website-design.jpg",
+    "imageAlt": "Designer reviewing a responsive website layout on screen",
+    "deliverables": [
+      "Digital strategy & site architecture",
+      "UX research & wireframing",
+      "UI & interaction design",
+      "Content strategy & copywriting",
+      "Front-end & CMS development",
+      "Landing pages & microsites",
+      "Technical SEO foundations",
+      "Performance & accessibility",
+      "Analytics & conversion tracking",
+      "Ongoing support & optimisation"
+    ],
+    "approach": [
+      { "title": "Map", "text": "Who visits, what they need and what the business needs them to do." },
+      { "title": "Structure", "text": "Architecture and wireframes that make the path obvious." },
+      { "title": "Design & build", "text": "A considered interface, engineered for speed and search." },
+      { "title": "Measure", "text": "Tracking in place from day one so we can keep improving it." }
+    ],
+    "faqs": [
+      { "q": "Which platforms do you build on?", "a": "We recommend the platform that suits your team — from hand-built static sites and headless CMS setups to WordPress and Webflow — rather than forcing one tool on every project." },
+      { "q": "Will my website be optimised for search?", "a": "Yes. Every build ships with clean semantic markup, fast load times, metadata, structured data and a sitemap, so it is ready to be found." },
+      { "q": "Can we update the website ourselves?", "a": "Yes. We set up an editing workflow your team is comfortable with and hand over with training." }
+    ],
+    "related": ["ecommerce-design", "performance-marketing", "brand-strategy-identity"]
+  },
+  {
+    "slug": "ecommerce-design",
+    "title": "Ecommerce & Digital Commerce",
+    "short": "Commerce experiences built around how people actually discover and buy.",
+    "metaTitle": "Ecommerce Website Development in Kerala | Shopify & WooCommerce",
+    "metaDescription": "High-converting ecommerce websites for brands in Kerala — Shopify, WooCommerce and custom builds with Indian payment gateways and logistics integrated.",
+    "headline": "Online stores built around how people actually buy.",
+    "intro": "A good store is more than a catalogue. We design ecommerce experiences around discovery, trust and a checkout with no friction — then integrate the payments, logistics and marketing tools that keep it running.",
+    "image": "services/ecommerce-design.jpg",
+    "imageAlt": "Customer browsing an online store on a mobile phone",
+    "deliverables": [
+      "Ecommerce strategy & platform selection",
+      "Shopify & Shopify Plus stores",
+      "WooCommerce development",
+      "Custom & headless commerce",
+      "Product page & checkout UX",
+      "Indian payment gateway integration",
+      "Shipping & logistics integration",
+      "Catalogue & merchandising setup",
+      "Marketplace & catalogue feeds",
+      "Conversion rate optimisation"
+    ],
+    "approach": [
+      { "title": "Understand", "text": "How your customers discover, compare and decide — online and off." },
+      { "title": "Design", "text": "Collections, product pages and checkout designed to remove doubt." },
+      { "title": "Integrate", "text": "Payments, logistics, inventory and marketing tools, connected properly." },
+      { "title": "Grow", "text": "Performance campaigns and CRO to increase revenue after launch." }
+    ],
+    "faqs": [
+      { "q": "Shopify or WooCommerce — which should we choose?", "a": "Shopify suits most brands that want speed, stability and low maintenance. WooCommerce suits teams that need deep customisation or already run WordPress. We recommend based on your catalogue, team and growth plans." },
+      { "q": "Which payment gateways can you integrate?", "a": "We integrate the major Indian gateways and UPI-first checkouts, plus international gateways for GCC and cross-border selling." },
+      { "q": "Can you help us sell after launch?", "a": "Yes. Our performance marketing and content teams can run acquisition and retention so the store has traffic from day one." }
+    ],
+    "related": ["performance-marketing", "website-design", "social-media"]
+  },
+  {
+    "slug": "performance-marketing",
+    "title": "Performance Marketing",
+    "short": "Creative and media working together to generate measurable business outcomes.",
+    "metaTitle": "Performance Marketing Agency in Kerala | Google & Meta Ads",
+    "metaDescription": "Performance marketing across Google, Meta, YouTube and LinkedIn — creative and media working together for measurable leads, sales and growth in India and the GCC.",
+    "headline": "Media buys attention. Creative decides what you do with it.",
+    "intro": "We plan, run and optimise paid media with the creative built in — not bolted on. Every campaign is tied to a number the business cares about, and reported in plain language.",
+    "image": "services/performance-marketing.jpg",
+    "imageAlt": "Marketing team reviewing campaign performance data",
+    "deliverables": [
+      "Paid media strategy & planning",
+      "Google Search, Shopping & Performance Max",
+      "Meta (Facebook & Instagram) ads",
+      "YouTube & programmatic video",
+      "LinkedIn B2B campaigns",
+      "Lead generation funnels",
+      "Performance creative & testing",
+      "Landing page optimisation",
+      "Tracking, pixels & attribution",
+      "Reporting & dashboards"
+    ],
+    "approach": [
+      { "title": "Baseline", "text": "Audit tracking, spend and results so we know where we are starting." },
+      { "title": "Plan", "text": "Channel mix, budgets and targets tied to the business objective." },
+      { "title": "Launch & test", "text": "Structured creative and audience testing from week one." },
+      { "title": "Optimise", "text": "Weekly optimisation and clear monthly reporting." }
+    ],
+    "faqs": [
+      { "q": "What budget do we need to start?", "a": "It depends on your market and objective. We recommend a test budget that is large enough to learn from, then scale what works — we will propose a figure after an initial audit." },
+      { "q": "How do you report results?", "a": "A live dashboard plus a monthly review focused on business outcomes — leads, sales, cost per acquisition and return on ad spend — not vanity metrics." },
+      { "q": "Do you produce the ad creative?", "a": "Yes. Our creative team produces and iterates ad formats for each platform, which is where most performance gains come from." }
+    ],
+    "related": ["social-media", "ecommerce-design", "creative-campaigns"]
+  },
+  {
+    "slug": "social-media",
+    "title": "Social Media & Content",
+    "short": "Content systems designed to make brands relevant in the everyday feed.",
+    "metaTitle": "Social Media Marketing & Content Agency in Kerala",
+    "metaDescription": "Social media strategy, content and community management for brands in Kerala, India and the GCC. Content systems designed for relevance in the everyday feed.",
+    "headline": "Posting isn’t a strategy. Relevance is.",
+    "intro": "We build content systems — clear pillars, recognisable formats and a production rhythm — so your brand shows up consistently, says something worth stopping for and builds an audience over time.",
+    "image": "services/social-media.jpg",
+    "imageAlt": "Content creator filming social media content with a smartphone",
+    "deliverables": [
+      "Social media strategy",
+      "Content pillars & formats",
+      "Monthly content calendars",
+      "Design, copy & short-form video",
+      "Reels & short-form production",
+      "Community management",
+      "Influencer & creator partnerships",
+      "Social listening & insight",
+      "Paid social amplification",
+      "Monthly performance reporting"
+    ],
+    "approach": [
+      { "title": "Position", "text": "What your brand should be known for in the feed." },
+      { "title": "Systemise", "text": "Pillars, formats and templates that make quality repeatable." },
+      { "title": "Produce", "text": "A steady rhythm of design, copy and video." },
+      { "title": "Learn", "text": "Review what earns attention and double down on it." }
+    ],
+    "faqs": [
+      { "q": "Which platforms do you manage?", "a": "Instagram, Facebook, LinkedIn, YouTube and X, with the mix chosen by where your audience actually spends time." },
+      { "q": "Do you shoot original content?", "a": "Yes. We plan and produce photo and video shoots, and create platform-native short-form content in-house." },
+      { "q": "Can you manage content in Malayalam and Arabic?", "a": "Yes. We create content in English and Malayalam, and work with native-language partners for Arabic content in the GCC." }
+    ],
+    "related": ["video-production", "performance-marketing", "creative-campaigns"]
+  },
+  {
+    "slug": "video-production",
+    "title": "Video & Content Production",
+    "short": "Stories, films and visual content built with purpose.",
+    "metaTitle": "Video Production & Ad Film Company in Kerala",
+    "metaDescription": "Ad films, brand films, corporate videos, product photography and social content — video and content production from concept to final cut, in Kerala and the GCC.",
+    "headline": "Every frame should earn its place.",
+    "intro": "From a thirty-second commercial to a year of social content, we take films from concept to final cut — script, casting, shoot, edit, sound and grade — with the objective in view throughout.",
+    "image": "services/video-production.jpg",
+    "imageAlt": "Film crew on set with a cinema camera",
+    "deliverables": [
+      "Concept & scriptwriting",
+      "Television & cinema commercials",
+      "Brand & documentary films",
+      "Corporate & explainer videos",
+      "Short-form social video",
+      "Product & lifestyle photography",
+      "Motion graphics & animation",
+      "Casting, locations & production",
+      "Editing, sound design & colour",
+      "Format adaptations & cut-downs"
+    ],
+    "approach": [
+      { "title": "Concept", "text": "A story built around what the film needs to achieve." },
+      { "title": "Pre-production", "text": "Script, storyboard, casting, locations and schedule." },
+      { "title": "Production", "text": "A focused shoot with the right crew for the job." },
+      { "title": "Post", "text": "Edit, sound, grade and every format you need to deploy." }
+    ],
+    "faqs": [
+      { "q": "Do you shoot outside Kerala?", "a": "Yes. We produce across India and in the GCC, building crews locally where it makes sense." },
+      { "q": "How long does an ad film take?", "a": "Typically 3–6 weeks from approved script to final delivery, depending on the scale of the shoot and post-production." },
+      { "q": "Can you deliver all the formats we need?", "a": "Yes. We plan cut-downs and aspect ratios for TV, cinema, YouTube, Reels and Stories from the start, so everything is shot for its final use." }
+    ],
+    "related": ["creative-campaigns", "social-media", "ai-creative"]
+  },
+  {
+    "slug": "ai-creative",
+    "title": "AI-Powered Creative",
+    "short": "Using emerging technology to explore, prototype and produce creative faster.",
+    "metaTitle": "AI-Powered Creative & Content Production Agency",
+    "metaDescription": "Responsible use of generative AI to explore ideas, prototype campaigns and produce content at scale — guided by strategy and finished by human craft.",
+    "headline": "New tools. Same standard.",
+    "intro": "We use generative AI where it makes the work better or faster — exploring more routes, prototyping ideas before a shoot, and producing variations at scale — with strategy setting the direction and people finishing the craft.",
+    "image": "services/ai-creative.jpg",
+    "imageAlt": "Creative professional working with generative design tools",
+    "deliverables": [
+      "Rapid concept exploration",
+      "AI-assisted storyboards & animatics",
+      "Campaign prototyping & pre-testing",
+      "Image & visual generation",
+      "Video generation & enhancement",
+      "Content variations at scale",
+      "Localisation & versioning",
+      "Creative automation workflows",
+      "AI tooling & workflow consulting",
+      "Responsible-use guidelines"
+    ],
+    "approach": [
+      { "title": "Frame", "text": "Decide where AI adds value — and where it doesn’t." },
+      { "title": "Explore", "text": "Generate and test more routes, earlier." },
+      { "title": "Refine", "text": "Human direction, editing and craft on every output." },
+      { "title": "Scale", "text": "Workflows that produce consistent variations quickly." }
+    ],
+    "faqs": [
+      { "q": "Is AI-generated content safe to use commercially?", "a": "We use tools with clear commercial terms, avoid imitating real people or protected work, and review every output before it is published." },
+      { "q": "Will AI replace the creative team?", "a": "No. It widens what the team can explore and speeds up production. Strategy, judgement and final craft remain human." },
+      { "q": "Can you help our in-house team adopt AI tools?", "a": "Yes. We run workshops and set up practical workflows and guidelines for marketing and content teams." }
+    ],
+    "related": ["video-production", "social-media", "creative-campaigns"]
+  }
+]

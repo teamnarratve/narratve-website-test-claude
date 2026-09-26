@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "the-brief-is-the-first-creative-act",
+    "title": "The brief is the first creative act",
+    "category": "Strategy",
+    "date": "2026-09-22",
+    "excerpt": "Forgettable advertising usually starts long before the idea. It starts with a brief that asks for everything and commits to nothing.",
+    "image": "insights/the-brief-is-the-first-creative-act.jpg",
+    "imageAlt": "Notebook and marker on a studio table during a planning session"
+  },
+  {
+    "slug": "one-idea-two-audiences-kerala-and-the-gcc",
+    "title": "One idea, two audiences: building campaigns for Kerala and the GCC",
+    "category": "Markets",
+    "date": "2026-09-15",
+    "excerpt": "The same brand can mean different things in Kochi and in Dubai. Good campaigns are built to travel without losing what made them work.",
+    "image": "insights/one-idea-two-audiences-kerala-and-the-gcc.jpg",
+    "imageAlt": "City skyline at dusk"
+  },
+  {
+    "slug": "performance-marketing-is-a-creative-problem",
+    "title": "Performance marketing is a creative problem",
+    "category": "Performance",
+    "date": "2026-09-08",
+    "excerpt": "Targeting has become a commodity. When everyone can reach the same audience, the ad itself is what decides the result.",
+    "image": "insights/performance-marketing-is-a-creative-problem.jpg",
+    "imageAlt": "Person scrolling a social feed on a smartphone"
+  }
+]
