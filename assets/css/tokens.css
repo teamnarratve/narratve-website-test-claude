@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Narratve Space — Design tokens
+   Vibrant · modern · 4px grid · soft corners · tight headlines · flat
+   ========================================================================== */
+
+:root {
+  /* ---- Colour ---------------------------------------------------------- */
+  --color-accent: #0071E3;          /* primary — used selectively */
+  --color-accent-strong: #005AB6;   /* hover / pressed */
+  --color-surface: #F5F5F7;         /* page background */
+  --color-elevated: #FAFAFC;        /* raised sections */
+  --color-fill: #FFFFFF;
+  --color-text: #000000;
+  --color-ink: #1D1D1F;             /* body copy */
+  --color-muted: #6B6B6B;
+  --color-muted-2: #86868B;
+  --color-rule: rgba(0, 0, 0, 0.12);
+  --color-rule-strong: rgba(0, 0, 0, 0.88);
+  --color-dark: #000000;
+  --color-dark-2: #161617;
+  --color-on-dark: #F5F5F7;
+  --color-on-dark-muted: rgba(245, 245, 247, 0.56);
+  --color-rule-on-dark: rgba(245, 245, 247, 0.16);
+
+  /* ---- Typography ------------------------------------------------------ */
+  --font-display: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-text: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  --fs-hero: clamp(56px, 9.4vw, 184px);
+  --fs-xxl: clamp(44px, 7.2vw, 120px);
+  --fs-xl: clamp(40px, 5.6vw, 88px);
+  --fs-h2: clamp(36px, 4.4vw, 56px);   /* 56px @ desktop */
+  --fs-h3: clamp(28px, 3vw, 40px);     /* 40px @ desktop */
+  --fs-lead: clamp(19px, 1.6vw, 24px);
+  --fs-body: 17px;
+  --fs-small: 14px;
+  --fs-micro: 12px;
+
+  --lh-display: 1.0;
+  --lh-h2: 1.07;
+  --lh-h3: 1.1;
+  --lh-tight: 1.14;
+  --lh-body: 1.47;
+
+  --ls-display: -0.035em;
+  --ls-h2: -0.02em;
+  --ls-body: -0.022em;              /* ≈ -0.374px @ 17px */
+  --ls-eyebrow: 0.08em;
+
+  /* Set to `uppercase` for an all-caps headline treatment */
+  --headline-case: none;
+
+  /* ---- Spacing (4px grid) --------------------------------------------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-13: 52px;
+  --space-15: 60px;
+  --space-18: 72px;
+  --space-24: 96px;
+  --space-36: 144px;
+
+  --section-y: clamp(96px, 12vw, 192px);
+
+  /* ---- Layout ---------------------------------------------------------- */
+  --container-max: 1905px;
+  --page-gutter: clamp(20px, 4.4vw, 72px);
+  --grid-gap: clamp(14px, 2vw, 32px);
+
+  /* ---- Shape ----------------------------------------------------------- */
+  --radius-btn: 11px;
+  --radius-media: 20px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+
+  /* ---- Focus ----------------------------------------------------------- */
+  --focus-color: var(--color-accent);
+  --focus-offset: 2px;
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 200ms;
+  --dur-base: 400ms;
+  --dur-copy: 600ms;
+  --dur-slide: 800ms;
+
+  /* ---- Z-index --------------------------------------------------------- */
+  --z-dropdown: 2;
+  --z-element: 4;
+  --z-nav: 2147483647;
+}
